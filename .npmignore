@@ -2,14 +2,14 @@
 lib
 tests
 package-lock.json
-tslint.json
 tsconfig.json
+.gitignore
 .prettierrc
+.eslintrc.js
+.commitlintrc.json
+.release-it.json
 
 # github
 .github
 CONTRIBUTING.md
 renovate.json
-
-# ci
-.circleci
