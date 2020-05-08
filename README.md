@@ -20,7 +20,7 @@ Values always need to be JSON encoded
 Environment
 ```dotenv
 DEMO_KEY1="test"
-DEMO_KEY2.SUBKEY=42
+DEMO_KEY2.SUBKEY.NESTEDSUBKEY=42
 DEMO_KEY3:0=true
 DEMO_KEY4={"subkey":"test"}
 ```
@@ -39,7 +39,9 @@ envJsonParser.get();
 {
     key1: "test",
     key2: {
-        subkey: 42
+        subkey: {
+            nestedsubkey: 42
+        }
     },
     key3: [
         true
@@ -53,6 +55,8 @@ envJsonParser.get();
 // get a part of the structure
 envJsonParser.get('key2.subkey');
 /*
-    42
+    {
+        nestedsubkey: 42
+    }
 */
 ```
