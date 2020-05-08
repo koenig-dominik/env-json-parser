@@ -1,6 +1,11 @@
 # Env JSON parser
 Library that parses JSON structures out of environment variables
 
+<a href="https://www.npmjs.com/env-json-parser"><img src="https://img.shields.io/npm/v/env-json-parser.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/env-json-parser"><img src="https://img.shields.io/npm/l/env-json-parser.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/env-json-parser"><img src="https://img.shields.io/npm/dm/env-json-parser.svg" alt="NPM Downloads" /></a>
+<a href="https://www.npmjs.com/env-json-parser"><img src="https://github.com/koenig-dominik/env-json-parser/workflows/CI/badge.svg" alt="CI" /></a>
+
 ## Installation
 
 ```shell script
