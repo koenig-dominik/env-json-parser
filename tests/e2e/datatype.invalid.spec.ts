@@ -1,4 +1,4 @@
-import { EnvJsonParser } from '../../lib/env-json-parser';
+import { EnvJsonParser } from '../../lib';
 
 describe('invalid datatype cases', () => {
   beforeEach(() => {
